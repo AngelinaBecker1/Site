@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(𝓓𝓮𝓼)𝓔𝓶𝓹𝓻𝓮𝓰𝓸𝓼</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header class="top">
+        <h1>Empresas</h1>
+    </header>
+
+    <div class="left">
+        <ul>
+            <li class="companie">
+                <img src="https://t.ctcdn.com.br/nJqn5lZgD1nW_bPj-V_ks2UYnZA=/1080x1080/smart/i459398.png" width="80"
+                    height="80" id="intelBtn">
+            </li>
+            <li class="companie">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTMHfGOrO1xwvfE5DxN531oNaQw2xwfrqt7rQ&s=&quality=lossless"
+                    width="80" height="80" id="amdBtn">
+            </li>
+        </ul>
+    </div>
+
+    <div class="center">
+        <ul>
+            <li class="companie">
+                <img src="https://t.ctcdn.com.br/lvns56iaSMyHvyTur4JeYS_NYeY=/i606944.png?quality=lossless" width="80"
+                    height="80" id="googleBtn">
+            </li>
+            <li class="companie">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ8Ng5UYwr90hnvb_-hxMJgY1XJ4ufZew9aKI2T9gYsmeDZbe4jiPGQPL_y9GhNI05_xdA&usqp=CAU&quality=lossless"
+                    width="80" height="80" id="nvidia">
+            </li>
+        </ul>
+    </div>
+
+    <div class="high">
+        <ul>
+            <li class="companie">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPKpumxvu2eASNQx2C9nw0Hqo6nnfV7we8Rw&s=&quality=lossless"
+                    width="80" height="80" id="metaBtn">
+            </li>
+            <li class="companie">
+                <img src="https://t.ctcdn.com.br/aFp_I8ScTJJch32H29ImNebDEYU=/i489949.jpeg?quality=lossless" width="80"
+                    height="80" id="appleBtn">
+            </li>
+        </ul>
+    </div>
+    
+    <script>
+        /*navegação feita por murilo*/
+        //navegação segue a ordem da lista
+        //getelemnetById pede o id do elemento entre ''
+        document.getElementById('intelBtn').addEventListener('click', function () {
+            //tudo que esta dentro da chave sera executado quando clicado
+            //windows location pede o caminho no caso abaixo a pagina intel
+            window.location.href = 'intel.html';
+        });
+
+        document.getElementById('amdBtn').addEventListener('click', function () {
+            window.location.href = 'amd.html';
+        });
+        document.getElementById('googleBtn').addEventListener('click', function () {
+            window.location.href = 'google.html'
+        });
+
+        document.getElementById('nvidia').addEventListener('click', function () {
+            window.location.href = 'nvidia.html';
+        });
+        document.getElementById('metaBtn').addEventListener('click', function () {
+            window.location.href = 'meta.html';
+        });
+        document.getElementById('appleBtn').addEventListener('click', function(){
+            window.location.href = 'apple.html';
+        });
+    </script>
+    <div class="bottom">
+        <p>(Des)empregados</p>
+    </div>
+</body>
+
+</html>
